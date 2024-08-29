@@ -23,7 +23,7 @@ document.getElementById('formConversion').addEventListener('submit', function(e)
     const formData = new FormData(this);
     const data = Object.fromEntries(formData.entries());
 
-    fetch('https://builder.conversionflow.com.br/webhook/dados-formulario', {
+    fetch('https://builder.conversionflow.com.br/webhook-test/dados-formulario', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
