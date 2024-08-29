@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/index_style.css">
+        <link rel="shortcut icon" href="assets/form-svgrepo-com.svg" type="image/x-icon">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <form method="post" id="formConversion">
+            <div class="infoParagraphContainer">
+                <p class="infoParagraph">Preencha as informações</p>
+                <div class="borderBottomStyle"></div>
+            </div>
+            <div class="formDiv">
+                <img src="assets/company-svgrepo-com.svg" alt="simbolo de uma empresa">
+                <input type="text" name="nome_empresa" id="nomeEmpresa" placeholder="Nome da Empresa" required>
+            </div>
+
+            <div class="formDiv">
+                <img src="assets/client-svgrepo-com.svg" alt="simbolo de clientes">
+                <input type="text" name="nome_cliente" id="nomeCliente" placeholder="Nome do Cliente" required>
+            </div>
+            
+            <div class="formDiv">
+                <img src="assets/email-svgrepo-com.svg" alt="simbolo de um email">
+                <input type="email" name="email_cliente" id="EmailCliente" placeholder="Email da Empresa" required>
+            </div>
+
+            <button class="sendButton" type="submit">Enviar</button>
+            <p>Não funcionou? Entre em <a href="#">contato conosco</a></p>
+        </form>
+        <script src="scripts/index_script.js"></script>
+    </body>
+</html>
